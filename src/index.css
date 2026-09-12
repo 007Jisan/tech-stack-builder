@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Use this for buttons or backgrounds */
+  .bg-brand-gradient {
+    @apply bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 text-white;
+  }
+  
+  /* Use this for text like the Brand Name or Hero Heading */
+  .text-brand-gradient {
+    @apply bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent;
+  }
+}
